@@ -1,0 +1,14 @@
+export PATH="~/bin:~/.bin:/usr/local/bin:/usr/local/sbin:$PATH"
+
+#node
+export NODE_PATH=/usr/local/bin/node:/usr/local/lib/node_modules
+
+# git
+export GIT_PATH=/usr/local/git/bin
+export PATH=$GIT_PATH:$PATH
+
+# rvm
+export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# go
+export PATH=$PATH:/usr/local/opt/go/libexec/bin

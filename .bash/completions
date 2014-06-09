@@ -1,0 +1,6 @@
+source ~/.bash/completion_scripts/git_completion
+source ~/.bash/completion_scripts/go-completion.bash
+source ~/.bash/completion_scripts/tmux_completion.sh
+source ~/.bash/completion_scripts/rake_completion.sh
+source ~/.bash/completion_scripts/gem_completion.sh
+source ~/.bash/completion_scripts/brew_completion

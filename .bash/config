@@ -1,0 +1,14 @@
+export EDITOR='subl -w'
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US"
+export MANPAGER="less -X"
+export HISTIGNORE="&:ls:ls *:cd:cd -:pwd:exit:date:* --help:* -h"
+export HISTCONTROL="ignoredups"
+
+# AWS
+export AWS_ACCESS_KEY_ID="your_key"
+export AWS_SECRET_ACCESS_KEY="your_secret"
+export EC2_REGION='us-west-2'
+
+# don't overwrite existing files with stdout redirection
+set -o noclobber

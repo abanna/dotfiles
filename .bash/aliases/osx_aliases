@@ -1,0 +1,17 @@
+# cite 'about-alias'
+# about-alias 'osx-specific aliases'
+
+# Desktop Programs
+alias safari="open -a safari"
+alias firefox="open -a firefox"
+alias chrome="open -a google\ chrome"
+alias f='open -a Finder '
+alias fh='open -a Finder .'
+alias textedit='open -a TextEdit'
+
+if [ -s /usr/bin/firefox ] ; then
+  unalias firefox
+fi
+
+# Requires growlnotify, which can be found in the Growl DMG under "Extras"
+#alias grnot='growlnotify -s -t Terminal -m "Done"'
