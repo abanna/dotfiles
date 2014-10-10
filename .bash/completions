@@ -4,3 +4,6 @@ source ~/.bash/completion_scripts/tmux_completion.sh
 source ~/.bash/completion_scripts/rake_completion.sh
 source ~/.bash/completion_scripts/gem_completion.sh
 source ~/.bash/completion_scripts/brew_completion
+
+# pyenv completion and shims
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
