@@ -4,6 +4,7 @@ export LANG="en_US"
 export MANPAGER="less -X"
 export HISTIGNORE="&:ls:ls *:cd:cd -:pwd:exit:date:* --help:* -h"
 export HISTCONTROL="ignoredups"
+export PYENV_ROOT="${HOME}/.pyenv"
 
 # AWS
 export AWS_ACCESS_KEY_ID="your_key"
