@@ -12,7 +12,6 @@ function ext-ip() { curl http://ipecho.net/plain; echo; }
 # get internal ips
 function int-ips() { ifconfig -a | perl -nle'/(\d+\.\d+\.\d+.\d+)/ && print $1'; }
  
-
 # test markdown files, probably a better way to test for programs.
 function md.view {
     local i=true
